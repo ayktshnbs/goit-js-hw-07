@@ -40,7 +40,7 @@ images.forEach(image => {
 
   const img = document.createElement("img");
   img.classList.add("gallery__image");
-  img.src = image.url;
+  img.src = image.src;
   img.alt = image.alt;
 
   item.append(img);
