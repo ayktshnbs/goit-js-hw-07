@@ -40,4 +40,4 @@ images.forEach(image => {
   fragment.append(item);
 });
 list.append(fragment);
-list.append(fragment);
+
